@@ -51,29 +51,12 @@
     transition: opacity 0.5s ease;
 }
 
-@media screen and (min-width: 768px) {
-    .card .info-item.absolute {
-        position: absolute;
-    }
-}
 
 .card .date-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
-}
-
-.card .info-item.first {
-    /*position: absolute;*/
-    top: 0;
-    left: 0;
-}
-
-.card .info-item.last {
-    /*position: absolute;*/
-    top: 0;
-    right: 0;
 }
 
 .card .info-item .title {
